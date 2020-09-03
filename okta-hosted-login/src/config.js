@@ -1,10 +1,10 @@
-const { CLIENT_ID, ISSUER, OKTA_TESTING_DISABLEHTTPSCHECK } = process.env
+const { CLIENT_ID, OKTA_TESTING_DISABLEHTTPSCHECK } = process.env
 
 export default {
   oidc: {
     clientId: CLIENT_ID,
-    issuer: ISSUER,
-    redirectUri: 'http://localhost:8080/implicit/callback',
+    issuer: 'https://dev-414194.okta.com/',
+    redirectUri: 'http://localhost:4000/implicit/callback',
     scopes: ['openid', 'profile', 'email'],
     pkce: true,
     testing: {

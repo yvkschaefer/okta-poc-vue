@@ -48,7 +48,7 @@ npm start
 > **Note:** If you are on a windows machine, you might get an error related to `browserslist`.
 > It is a [known issue](https://github.com/angular/angular-cli/issues/5075) on windows due to one of the dependencies we use. To resolve the issue, search for `browserslist` and `browserslist.cmd` files in your node_modules. Delete the files and start the app server again.
 
-Now navigate to http://localhost:8080 in your browser.
+Now navigate to http://localhost:4000 in your browser.
 
 If you see a home page that prompts you to login, then things are working!  Clicking the **Log in** button will redirect you to the Okta hosted sign-in page.
 
