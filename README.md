@@ -1,3 +1,8 @@
+# To Run
+export ISSUER={{issuer}}
+export CLIENT_ID={{clientId}}
+npm run okta-hosted-login-server
+
 # Vue Sample Applications for Okta
 
 This repository contains several sample applications that demonstrate various Okta use-cases in your Vue application.
