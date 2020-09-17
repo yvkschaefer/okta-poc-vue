@@ -18,7 +18,8 @@
     "setup-env": "node scripts/setup-env.js",
     "install-custom-login": "cd custom-login && npm install --allow-root",
     "install-okta-hosted-login": "cd okta-hosted-login && npm install",
-    "webdriver-update-legacy": "webdriver-manager update --versions.standalone=3.141.59 --versions.chrome 2.45 --gecko false"
+    "webdriver-update-legacy": "webdriver-manager update --versions.standalone=3.141.59 --versions.chrome 2.45 --gecko false",
+    "start": "export ISSUER=\"https://dev-414194.okta.com/\" && export CLIENT_ID=\"0oavb6a3dKaunie3t4x6\" && npm run okta-hosted-login-server"
   },
   "license": "Apache-2.0",
   "repository": {
